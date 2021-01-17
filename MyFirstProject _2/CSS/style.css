@@ -1,0 +1,51 @@
+body 
+ {
+    user-select: none;
+ }
+ .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    padding: 4px;
+    background-color:gray;
+    max-width:400px;
+    font-family:"tahoma";
+    margin: auto;
+ }
+ .item {
+    background-color: lightskyblue;
+    color:black;
+    padding: 20px;
+    display: flex;
+    cursor: pointer;
+    font-weight: bold ;
+    align-items: center;
+ }
+ form {
+    max-width:100%;;  
+ }
+ input {
+    width: 107%;
+    height: 60px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    text-align: right;
+ }
+ .input {
+    grid-column: 1/-1;
+    padding: 0;
+ }
+ .clean {
+    grid-column: 1/3;
+ }
+ .back {
+    grid-column: 3/-1;
+ }
+ .equal {
+    grid-column: 4;
+    grid-row: 6/8;;
+ }
+ .zero {
+    grid-column: 1/3;
+ }
